@@ -29,7 +29,6 @@
 			<array>
 			  <string>merchant.com.gems.810209920</string>
 			  <string>merchant.com.gems.mhscobranded</string>
-			  <string>merchant.gems.applepay</string>
 			</array>
 		  </config-file>
 
@@ -37,7 +36,6 @@
 			<array>
 			   <string>merchant.com.gems.810209920</string>
 			  <string>merchant.com.gems.mhscobranded</string>
-			  <string>merchant.gems.applepay</string>
 			</array>
 		  </config-file>
     </platform>
