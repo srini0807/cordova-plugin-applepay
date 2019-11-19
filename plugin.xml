@@ -38,16 +38,17 @@
 			  <string>merchant.com.gems.mhs.820124000</string>
 			</array>
 		  </config-file>
-	    <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
+	   <!-- Adding Associated Domains -->
+    <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
       <array>
         <string>webcredentials:gemseducation-dev.outsystemsenterprise.com:443</string>
       </array>
     </config-file>
       
     <!-- Enable Autofill in iOS 12+ -->
-    <config-file parent="com.apple.developer.authentication-services.autofill-credential-provider" target="*-Release.plist">
+    <!-- <config-file parent="com.apple.developer.authentication-services.autofill-credential-provider" target="*-Release.plist">
 		<boolean>true</boolean>
-	</config-file>
+	</config-file> -->
     </platform>
 
 </plugin>
