@@ -27,15 +27,15 @@
   <!-- other properties here -->
 		  <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
 			<array>
-			  <string>merchant.com.gems.810209920</string>
-			  <string>merchant.com.gems.mhscobranded</string>
+			  <string>merchant.com.gems.mhs.cob.820394000</string>
+			  <string>merchant.com.gems.mhs.820124000</string>
 			</array>
 		  </config-file>
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.in-app-payments">
 			<array>
-			   <string>merchant.com.gems.810209920</string>
-			  <string>merchant.com.gems.mhscobranded</string>
+			   <string>merchant.com.gems.mhs.cob.820394000</string>
+			  <string>merchant.com.gems.mhs.820124000</string>
 			</array>
 		  </config-file>
     </platform>
