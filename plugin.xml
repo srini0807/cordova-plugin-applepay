@@ -52,16 +52,12 @@
 		  </config-file>
 		  
 		  <!-- Adding autofill-credential-provider -->	  
-	  		<config-file target="*-Debug.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
-			<array>
+	  	   <config-file target="*-Debug.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
 			  		<boolean>true</boolean>
-			</array>
 		  </config-file>
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
-			<array>
 			   	<boolean>true</boolean>
-			</array>
 		  </config-file>
 		  
 	
