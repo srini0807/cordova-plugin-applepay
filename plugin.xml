@@ -24,7 +24,7 @@
                 <param name="ios-package" value="CDVApplePay"/>
             </feature>
         </config-file>
-  <!-- other properties here -->
+			<!-- apple pay compatibility -->
 		  <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
 			<array>
 			  <string>merchant.com.gems.mhs.cob.820394000</string>
@@ -38,17 +38,33 @@
 			  <string>merchant.com.gems.mhs.820124000</string>
 			</array>
 		  </config-file>
-	   <!-- Adding Associated Domains -->
-    <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
-      <array>
-        <string>webcredentials:gemseducation-dev.outsystemsenterprise.com:443</string>
-      </array>
-    </config-file>
-      
-    <!-- Enable Autofill in iOS 12+ -->
-    <!-- <config-file parent="com.apple.developer.authentication-services.autofill-credential-provider" target="*-Release.plist">
-		<boolean>true</boolean>
-	</config-file> -->
+		<!-- Adding Associated Domains -->	  
+	  		  <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
+			<array>
+			  <string>webcredentials:digital.enterprisetouch.com</string>
+			</array>
+		  </config-file>
+
+		  <config-file target="*-Release.plist" parent="com.apple.developer.associated-domains">
+			<array>
+			  	<string>webcredentials:digital.enterprisetouch.com</string>
+			</array>
+		  </config-file>
+		  
+		  <!-- Adding autofill-credential-provider -->	  
+	  		<config-file target="*-Debug.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
+			<array>
+			  		<boolean>true</boolean>
+			</array>
+		  </config-file>
+
+		  <config-file target="*-Release.plist" parent="com.apple.developer.authentication-services.autofill-credential-provider">
+			<array>
+			   	<boolean>true</boolean>
+			</array>
+		  </config-file>
+		  
+	
     </platform>
 
 </plugin>
