@@ -29,6 +29,7 @@
 			<array>
 			  <string>merchant.com.gems.mhs.cob.820394000</string>
 			  <string>merchant.com.gems.mhs.820124000</string>
+				<string>merchant.com.gems.TEST820124000</string>
 			</array>
 		  </config-file>
 
@@ -36,6 +37,7 @@
 			<array>
 			   <string>merchant.com.gems.mhs.cob.820394000</string>
 			  <string>merchant.com.gems.mhs.820124000</string>
+				<string>merchant.com.gems.TEST820124000</string>
 			</array>
 		  </config-file>
 		<!-- Adding Associated Domains -->	  
