@@ -7,7 +7,9 @@
     <description>Implements Apple Pay.</description>
     <keywords>cordova,payment,apple pay</keywords>
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
-
+ 	<preference name="MERCHANT1" />
+	<preference name="MERCHANT2" />
+	<preference name="MERCHANT3" />
     <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">
@@ -27,17 +29,17 @@
 			<!-- apple pay compatibility -->
 		  <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
 			<array>
-			  <string>merchant.com.gems.mhs.cob.820394000</string>
-			  <string>merchant.com.gems.mhs.820124000</string>
-				<string>merchant.com.gems.TEST820124000</string>
+			  <string>$MERCHANT1</string>
+				<string>$MERCHANT2</string>
+				<string>$MERCHANT3</string>
 			</array>
 		  </config-file>
 
 		  <config-file target="*-Release.plist" parent="com.apple.developer.in-app-payments">
 			<array>
-			   <string>merchant.com.gems.mhs.cob.820394000</string>
-			  <string>merchant.com.gems.mhs.820124000</string>
-				<string>merchant.com.gems.TEST820124000</string>
+			   <string>$MERCHANT1</string>
+				<string>$MERCHANT2</string>
+				<string>$MERCHANT3</string>
 			</array>
 		  </config-file>
 		<!-- Adding Associated Domains -->	  
