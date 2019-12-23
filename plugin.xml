@@ -9,7 +9,6 @@
     <repo>https://github.com/samkelleher/cordova-plugin-applepay</repo>
  	<preference name="MERCHANT1" />
 	<preference name="MERCHANT2" />
-	<preference name="MERCHANT3" />
     <platform name="ios">
 
         <js-module src="www/applepay.js" name="payment">
@@ -31,7 +30,6 @@
 			<array>
 			  <string>$MERCHANT1</string>
 				<string>$MERCHANT2</string>
-				<string>$MERCHANT3</string>
 			</array>
 		  </config-file>
 
@@ -39,7 +37,6 @@
 			<array>
 			   <string>$MERCHANT1</string>
 				<string>$MERCHANT2</string>
-				<string>$MERCHANT3</string>
 			</array>
 		  </config-file>
 		<!-- Adding Associated Domains -->	  
