@@ -4,7 +4,55 @@
     <description>Implements Apple Pay.</description>
     <keywords>cordova,payment,apple pay</keywords>
     <repo>https://github.com/Srini-max/cordova-plugin-applepay</repo>
-   
+   <preference name="MERCHA1" default=""/>
+	<preference name="MERCHA2" default=""/>
+	<preference name="MERCHA3" default=""/>
+	<preference name="MERCHA4" default=""/>
+	<preference name="MERCHA5" default=""/>
+	<preference name="MERCHA6" default=""/>
+	<preference name="MERCHA7" default=""/>
+	<preference name="MERCHA8" default=""/>
+	<preference name="MERCHA9" default=""/>
+	<preference name="MERCHB1" default=""/>
+	<preference name="MERCHB2" default=""/>
+	<preference name="MERCHB3" default=""/>
+	<preference name="MERCHB4" default=""/>
+	<preference name="MERCHB5" default=""/>
+	<preference name="MERCHB6" default=""/>
+	<preference name="MERCHB7" default=""/>
+	<preference name="MERCHB8" default=""/>
+	<preference name="MERCHB9" default=""/>
+	<preference name="MERCHC1" default=""/>
+	<preference name="MERCHC2" default=""/>
+	<preference name="MERCHC3" default=""/>
+	<preference name="MERCHC4" default=""/>
+	<preference name="MERCHC5" default=""/>
+	<preference name="MERCHC6" default=""/>
+	<preference name="MERCHC7" default=""/>
+	<preference name="MERCHC8" default=""/>
+	<preference name="MERCHC9" default=""/>
+	<preference name="MERCHD1" default=""/>
+	<preference name="MERCHD2" default=""/>
+	<preference name="MERCHD3" default=""/>
+	<preference name="MERCHD4" default=""/>
+	<preference name="MERCHD5" default=""/>
+	<preference name="MERCHD6" default=""/>
+	<preference name="MERCHD7" default=""/>
+	<preference name="MERCHD8" default=""/>
+	<preference name="MERCHD9" default=""/>
+	<preference name="MERCHE1" default=""/>
+	<preference name="MERCHE2" default=""/>
+	<preference name="MERCHE3" default=""/>
+	<preference name="MERCHE4" default=""/>
+	<preference name="MERCHE5" default=""/>
+	<preference name="MERCHE6" default=""/>
+	<preference name="MERCHE7" default=""/>
+	<preference name="MERCHE8" default=""/>
+	<preference name="MERCHE9" default=""/>
+	<preference name="MERCHF1" default=""/>
+	<preference name="MERCHF2" default=""/>
+		<preference name="MERCHF3" default=""/>
+
     <platform name="ios">
         <js-module src="www/applepay.js" name="payment">
             <clobbers target="ApplePay" />
