@@ -18,6 +18,112 @@
             </feature>
         </config-file>
         <!-- apple pay compatibility -->
-      
+       <config-file target="*-Debug.plist" parent="com.apple.developer.in-app-payments">
+			<array>
+			  <string>$MERCHA1</string>
+<string>$MERCHA2</string>
+<string>$MERCHA3</string>
+<string>$MERCHA4</string>
+<string>$MERCHA5</string>
+<string>$MERCHA6</string>
+<string>$MERCHA7</string>
+<string>$MERCHA8</string>
+<string>$MERCHA9</string>
+<string>$MERCHB1</string>
+<string>$MERCHB2</string>
+<string>$MERCHB3</string>
+<string>$MERCHB4</string>
+<string>$MERCHB5</string>
+<string>$MERCHB6</string>
+<string>$MERCHB7</string>
+<string>$MERCHB8</string>
+<string>$MERCHB9</string>
+<string>$MERCHC1</string>
+<string>$MERCHC2</string>
+<string>$MERCHC3</string>
+<string>$MERCHC4</string>
+<string>$MERCHC5</string>
+<string>$MERCHC6</string>
+<string>$MERCHC7</string>
+<string>$MERCHC8</string>
+<string>$MERCHC9</string>
+<string>$MERCHD1</string>
+<string>$MERCHD2</string>
+<string>$MERCHD3</string>
+<string>$MERCHD4</string>
+<string>$MERCHD5</string>
+<string>$MERCHD6</string>
+<string>$MERCHD7</string>
+<string>$MERCHD8</string>
+<string>$MERCHD9</string>
+<string>$MERCHE1</string>
+<string>$MERCHE2</string>
+<string>$MERCHE3</string>
+<string>$MERCHE4</string>
+<string>$MERCHE5</string>
+<string>$MERCHE6</string>
+<string>$MERCHE7</string>
+<string>$MERCHE8</string>
+<string>$MERCHE9</string>
+<string>$MERCHF1</string>
+<string>$MERCHF2</string>
+                <string>$MERCHF3</string>
+
+			</array>
+		  </config-file>
+
+		  <config-file target="*-Release.plist" parent="com.apple.developer.in-app-payments">
+			<array>
+			   <string>$MERCHA1</string>
+<string>$MERCHA2</string>
+<string>$MERCHA3</string>
+<string>$MERCHA4</string>
+<string>$MERCHA5</string>
+<string>$MERCHA6</string>
+<string>$MERCHA7</string>
+<string>$MERCHA8</string>
+<string>$MERCHA9</string>
+<string>$MERCHB1</string>
+<string>$MERCHB2</string>
+<string>$MERCHB3</string>
+<string>$MERCHB4</string>
+<string>$MERCHB5</string>
+<string>$MERCHB6</string>
+<string>$MERCHB7</string>
+<string>$MERCHB8</string>
+<string>$MERCHB9</string>
+<string>$MERCHC1</string>
+<string>$MERCHC2</string>
+<string>$MERCHC3</string>
+<string>$MERCHC4</string>
+<string>$MERCHC5</string>
+<string>$MERCHC6</string>
+<string>$MERCHC7</string>
+<string>$MERCHC8</string>
+<string>$MERCHC9</string>
+<string>$MERCHD1</string>
+<string>$MERCHD2</string>
+<string>$MERCHD3</string>
+<string>$MERCHD4</string>
+<string>$MERCHD5</string>
+<string>$MERCHD6</string>
+<string>$MERCHD7</string>
+<string>$MERCHD8</string>
+<string>$MERCHD9</string>
+<string>$MERCHE1</string>
+<string>$MERCHE2</string>
+<string>$MERCHE3</string>
+<string>$MERCHE4</string>
+<string>$MERCHE5</string>
+<string>$MERCHE6</string>
+<string>$MERCHE7</string>
+<string>$MERCHE8</string>
+<string>$MERCHE9</string>
+<string>$MERCHF1</string>
+<string>$MERCHF2</string>
+                                <string>$MERCHF3</string>
+
+			</array>
+		  </config-file> 
     </platform>
 </plugin>
